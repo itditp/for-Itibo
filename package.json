@@ -1,0 +1,28 @@
+{
+  "name": "taskItibo",
+  "version": "1.0.0",
+  "description": "webpack with an angular project",
+  "main": "app/index.js",
+  "repository": "https://github.com/Severenit/angular-webpack.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html dist/index.html"
+  },
+  "keywords": [
+    "webpack",
+    "angular",
+  ],
+  "author": "Mikhail Bilida",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^6.2.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "promise": "^7.1.1",
+    "style-loader": "^0.13.1"
+  }
+}

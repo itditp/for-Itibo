@@ -1,0 +1,11 @@
+.panel-info{
+	margin-top: 30px;
+}
+
+.panel-body form{
+	margin: 20px auto;
+}
+
+.well span{
+	word-wrap: break-word;
+}
