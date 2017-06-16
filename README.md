@@ -9,7 +9,7 @@
 
 ## Install
 ```sh
-$ git clone https://github.com/itditp/for-Itibo.git && cd for-Itibo
+$ git clone https://github.com/itditp/for-Itibo.git && cd todo_angular
 $ npm install
 $ npm start
 ```
